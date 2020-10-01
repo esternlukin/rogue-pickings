@@ -1,0 +1,148 @@
+/*****BASE-STYLES*****/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*****GRID*****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    border-bottom: 1px solid #cec8c8;
+    border-top: 1px solid #cec8c8;
+    float: left;
+    height: 175px;
+    padding: 15px 5px;
+    width: 380px;
+}
+
+
+.third-width-middle {
+    border: 1px solid #cec8c8;
+    float: left;
+    height: 175px;
+    padding: 15px 5px;
+    width: 395px;
+}
+
+/*****HEADER*****/
+header h1 {
+    color: #000000;
+    font-size: 30px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    padding-top: 130px;
+}
+
+header h1 span {
+    color: #77a466
+}
+
+nav {
+    float: right;
+    padding-top: 132.5px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+/*****WELCOME SECTION*****/ 
+#welcome img#hero-image {
+    border-bottom: solid #77a466;
+    border-top: solid #77a466;
+    height: 288px;
+    margin: 25px 0 10px 0;
+}
+
+#welcome h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#welcome p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+
+/*****ABOUT SECTION*****/
+#about {
+   text-align: left;
+}
+
+#about h3 {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about #specials-header {
+    margin: 10px 0;
+}
+
+#about #first-item, #second-item, #third-item {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 10px 10px 0;
+}
+
+#about #reviews-header {
+    margin: 10px 30px 10px 25px;
+}
+
+#about #reviews {
+    margin: 0 30px 10px 25px;
+}
+
+#about #contact-header {
+    margin: 10px 0 10px 25px;
+}
+
+#about #contact-info {
+    margin: 0 15px 10px 25px;
+}
+
+
+/*****FOOTER SECTION*****/
+#footer p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+}
+
+
